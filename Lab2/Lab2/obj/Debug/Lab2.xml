@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab2
+</name>
+</assembly>
+<members>
+<member name="T:Lab2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.resetForm">
+ <summary>
+     Resets form to initial state
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.course1">
+ <summary>
+     Letter grade for course 1
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.course2">
+ <summary>
+     Letter grade for course 2
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.course3">
+ <summary>
+     Letter grade for course 3
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.course4">
+ <summary>
+     Letter grade for course 4
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.course5">
+ <summary>
+     Letter grade for course 5
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.course6">
+ <summary>
+     Letter grade for course 6
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.semesterLetter">
+ <summary>
+     Letter grade for Semester
+ </summary>
+</member>
+<member name="M:Lab2.frmSemesterGrades.validateInput(System.String)">
+ <summary>
+     Validates inputed user data
+ </summary>
+ <param name="input">User input to be validated</param>
+ <returns>Whether the input was valid or invalid as boolean</returns>
+</member>
+<member name="M:Lab2.frmSemesterGrades.btnCalculate_Click(System.Object,System.EventArgs)">
+ <summary>
+     Handles Calculate Button
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab2.frmSemesterGrades.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+     Handles Reset Button
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab2.frmSemesterGrades.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+     Handles Exit Button
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

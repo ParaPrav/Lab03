@@ -1,0 +1,11 @@
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\bin\Debug\Lab2.xml
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\obj\Debug\Lab2.vbprojResolveAssemblyReference.cache
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\obj\Debug\Lab2.frmSemesterGrades.resources
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\obj\Debug\Lab2.Resources.resources
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\obj\Debug\Lab2.vbproj.GenerateResource.Cache
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\obj\Debug\Lab2.xml
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 2\Lab2\Lab2\obj\Debug\Lab2.pdb
