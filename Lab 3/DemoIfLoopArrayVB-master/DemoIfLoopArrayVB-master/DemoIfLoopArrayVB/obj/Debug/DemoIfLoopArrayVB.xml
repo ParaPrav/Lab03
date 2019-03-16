@@ -1,0 +1,256 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DemoIfLoopArrayVB
+</name>
+</assembly>
+<members>
+<member name="T:DemoIfLoopArrayVB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DemoIfLoopArrayVB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DemoIfLoopArrayVB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DemoIfLoopArrayVB.frmDemoIfLoopArray">
+ <summary>
+ Author: Alfred Massardo
+ Project Name: DemoIfLoopArrayVB
+ Date: 01-Jan-2018
+ Description: Application to demonstrate various VB constructs.
+ </summary>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnIfDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ It will test If the number Is a... 
+    1. Number 
+    2. Double 
+    3. Integer
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnNestedIfDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ It will test If the number Is a... 
+    1. Number 
+    2. Double 
+    3. Integer
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnForLoopDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will Loop until the number 
+ you have entered Is reached.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnForLoopBreakDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will Loop until the number entered  
+ is reached or until the loop limit is reached.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnWhileLoopDemoOutput_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will Loop until the number 
+ you have entered Is reached.
+ </summary>
+ <param name="sender"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnWhileLoopBreakDemoOutput_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will Loop until the number entered  
+ is reached or until the loop limit is reached.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnDoWhileLoopDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will Loop until the number 
+ you have entered Is reached.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnDoWhileLoopBreakDemo_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will Loop until the number entered  
+ is reached or until the loop limit is reached.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnCreateArrayDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will create an array Of the 
+ number of elements specified. 
+ Then each element of the array
+ will be filled by looping the array 
+ and countingby 2s.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnAddDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ btnAddDemo_Click - event that fires when the btnAddDemo is click and demonstrates a method function by calling a simple add method/function.
+ </summary>
+ <param name="sender">Object</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.Add(System.Double,System.Double)">
+ <summary>
+ Add - Adds two numbers
+     *** Function is a self contained area of code that contains one or more lines of code that can be called by another procedure and returns a value to the calling code. 
+ </summary>
+ <param name="numberOne">Double</param>
+ <param name="numberTwo">Double</param>
+ <returns>Double - the sum of the two arguments passed to the Method/Function</returns>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.Add(System.Double[])">
+ <summary>
+ Add - Adds any number of numbers, but the numbers must be passed in as a double array
+ </summary>
+ <param name="numbers">Double()</param>
+ <returns>Double - the sum of the array argument passed to the Method/Function</returns>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnMethodDemo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Enter a number and click Enter. 
+ This will create an array Of the 
+ number of elements specified. 
+ Then each element of the array
+ will be filled by looping the array 
+ and counting by 2s. Uses a 
+ method to create the array And 
+ a method To create output.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.IsValidInput(System.String,System.Int32@)">
+ <summary>
+ IsValidInput - check the input to determine if it is a number and also confirms if it is a whole number.
+ </summary>
+ <param name="userInput">ByVal String</param>
+ <param name="returnInputInteger">ByRef - Integer</param>
+ <returns></returns>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.CreateAndLoadArray(System.Int32)">
+ <summary>
+ Function that accepts an integer representing the length 
+ of size of the array. It creates the array And then proceeds
+ to fill each element counting up by 2s.
+ </summary>
+ <param name="arrayLength"></param>
+ <returns>array of type integer</returns>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.CreateOutput(System.Int32[])">
+ <summary>
+ Function that accepts an integer array as an argument.
+ It then loops through the array And create a string
+ based on the values in the array.
+ </summary>
+ <param name="arrayOfValues">integer array</param>
+ <returns>string</returns>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ The Click event of the reset button Is fired when the
+ user clicks the reset button when they wish to clear the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.resetForm">
+ <summary>
+ Private function that loops through the form And
+ determines if the control should be cleared. If so,
+ the control Is cleared.
+     *** Sub is a self contained area of code that contains one or more lines of code that can be called by another procedure but does **not** return anything to the calling code. 
+ </summary>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnSelectCase_Click(System.Object,System.EventArgs)">
+ <summary>
+ Private click event to demonstrate a select case statement
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.frmDemoIfLoopArray_Load(System.Object,System.EventArgs)">
+ <summary>
+ frmDemoIfLoopArray_Load - load the controls into the respective control arrays
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btn2dJaggedEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ btn2dJaggedEnter_Click - enters the value entered by the user into the numberArray and displays it in the output label
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btn2dJaggedDisplay_Click(System.Object,System.EventArgs)">
+ <summary>
+ btn2dJaggedDisplay_Click - displays the content of the numberArray (2D) 
+                            into the rowColumnLabels and the valueLabels 
+                            that are housed in the control arrays which 
+                            are held in the jagged array.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btn2dJaggedReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ btn2dJaggedReset_Click - clears the controls in this section of code 
+                          looping the the control arrays in the jagged
+                          array. And looping through rows and columns
+                          in the 2D array.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.input_GotFocus(System.Object,System.EventArgs)">
+ <summary>
+ Captures the GotFocus event for a number of controls when a specific controls gets focus this reset the accept button
+ to the appropriate button on the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoIfLoopArrayVB.frmDemoIfLoopArray.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ btnExit_Click - when click will call the form method to close the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DemoJaggedArray
+</name>
+</assembly>
+<members>
+<member name="T:DemoJaggedArray.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DemoJaggedArray.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DemoJaggedArray.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DemoJaggedArray.frmDemoJaggedArray">
+ <summary>
+ Author:         Alfred Massardo
+ Project Name:   DemoJaggedArray
+ Date:           23-Jan-2018
+ Description:    Simple program to demonstrate creating, loading, looping, and display the content of a jagged array.
+ </summary>
+</member>
+<member name="M:DemoJaggedArray.frmDemoJaggedArray.frmDemoJaggedArray_Load(System.Object,System.EventArgs)">
+ <summary>
+ frmDemoJaggedArray_Load - loads the jagged arrays with the child arrays
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoJaggedArray.frmDemoJaggedArray.cboGenres_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ cboGenres_SelectedIndexChanged - When the index changes, the index is used to select the child array
+                                  and then loops the elements in the child array
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoJaggedArray.frmDemoJaggedArray.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ btnReset_Click - event that resets the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoJaggedArray.frmDemoJaggedArray.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ btnExit_Click - Will close the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
