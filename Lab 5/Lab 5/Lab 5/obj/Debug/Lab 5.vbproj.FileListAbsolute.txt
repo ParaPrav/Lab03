@@ -1,0 +1,15 @@
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\bin\Debug\Lab 5.exe.config
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\bin\Debug\Lab 5.exe
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\bin\Debug\Lab 5.pdb
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\bin\Debug\Lab 5.xml
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\obj\Debug\Lab_5.Resources.resources
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.vbproj.GenerateResource.Cache
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.exe
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.xml
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.pdb
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.vbprojResolveAssemblyReference.cache
+C:\Users\Praveen\Desktop\Lab 5\Lab 5\Lab 5\obj\Debug\Lab_5.frmTextEditor.resources
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 5\Lab 5\Lab 5\bin\Debug\Lab 5.exe.config
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.exe
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.xml
+C:\Users\Praveen\Desktop\Durham   College   Sem 2\NETD\Lab 5\Lab 5\Lab 5\obj\Debug\Lab 5.pdb

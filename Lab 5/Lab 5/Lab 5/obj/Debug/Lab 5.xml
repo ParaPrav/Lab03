@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab 5
+</name>
+</assembly>
+<members>
+<member name="T:Lab_5.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab_5.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab_5.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Lab_5.frmTextEditor">
+ <summary>
+ Author Name:    Praveen Paramanathan
+ Project Name:   Text Editor
+ Date:           05-April-2019
+ Description     Application to create and/or edit a text file.
+ </summary>
+ 
+</member>
+<member name="M:Lab_5.frmTextEditor.NewToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ New - set the textbox back to their default state.
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.OpenToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open - allows the user to browse folders and files to open a file they would like to change
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.SaveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Save - allows the user to save the contents that were changed within the file
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.SaveAsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ SaveAs - allows the user to browse folders save a file they had created
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.ExitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exit - closes the program
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.CopyToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Copy - allows the user to copy the selected text to their clipboard
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.CutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cut - allows the user to clear the selected text and save it to their clipboard 
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.PasteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Paste - allows the user to paste the last text they have in their clipboard
+ </summary>
+</member>
+<member name="M:Lab_5.frmTextEditor.AboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ About - gives information about the program
+ </summary>
+</member>
+</members>
+</doc>
