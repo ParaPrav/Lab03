@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab4
+</name>
+</assembly>
+<members>
+<member name="T:Lab4.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab4.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab4.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Lab4.frmCarInventory">
+ <summary>
+ Author Name:    Praveen Paramanathan
+ Project Name:   Car Inventory
+ Date:           11-March-2019
+ Description     Application to keep a list of cars and a little information that describes their importance.
+ </summary>
+</member>
+<member name="M:Lab4.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ btnEnter_Click - Validate that the data entered into the controls is appropriate.
+                - Insert the new car object into the carList collection. 
+                - Check to see if the data in the controls has been selected from the listview by the user.
+ </summary>
+ <param name="sender">Object</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Lab4.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Reset - set the controls back to their default state.
+ </summary>
+</member>
+<member name="M:Lab4.frmCarInventory.IsValidInput">
+ <summary>
+ IsValidInput - validates the data in each control to ensure that the user has entered apprpriate values
+ </summary>
+ <returns>Boolean</returns>
+</member>
+<member name="M:Lab4.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ btnExit_Click - EventHandler will close the application
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab4.frmCarInventory.lvwCars_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ lvwCustomers_SelectedIndexChanged - when the user selected a row in the list it will populate the fields for editing
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab4.Car.#ctor">
+ <summary>
+ Constructor - Default - creates a new car object
+ </summary>
+</member>
+<member name="M:Lab4.Car.#ctor(System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Constructor - Parameterized - creates a new car object
+ </summary>
+ <param name="make"></param>
+ <param name="model"></param>
+ <param name="year"></param>
+ <param name="price"></param>
+ <param name="veryImportantCarStatus"></param>
+</member>
+<member name="P:Lab4.Car.Count">
+ <summary>
+ Count ReadOnly Property - Gets the number of cars that have been instantiated/created
+ </summary>
+ <returns>Integer</returns>
+</member>
+<member name="P:Lab4.Car.IdentificationNumber">
+ <summary>
+ IdentificationNumber ReadOnly Property - Gets a specific cars identification number
+ </summary>
+ <returns>Integer</returns>
+</member>
+<member name="P:Lab4.Car.VeryImportantCarStatus">
+ <summary>
+ VeryImportantPersonStatus Property - >Gets and Sets the Very Important Car status of a car
+ </summary>
+ <returns>Boolean</returns>
+</member>
+<member name="P:Lab4.Car.Make">
+ <summary>
+ Title property - Gets and Sets the title of a car
+ </summary>
+ <returns>String</returns>
+</member>
+<member name="P:Lab4.Car.Model">
+ <summary>
+ Model property - Gets and Sets the Model of a car
+ </summary>
+ <returns>String</returns>
+</member>
+<member name="P:Lab4.Car.Year">
+ <summary>
+ Year property - Gets and Sets the year of a car
+ </summary>
+ <returns>String</returns>
+</member>
+<member name="P:Lab4.Car.Price">
+ <summary>
+ Price property - Gets and Sets the price of a car
+ </summary>
+ <returns>String</returns>
+</member>
+<member name="M:Lab4.Car.GetSalutation">
+ <summary>
+ GetSalutation is a function that a salutation based on the private properties within the class scope
+ </summary>
+ <returns>String</returns>
+</member>
+</members>
+</doc>
